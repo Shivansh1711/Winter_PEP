@@ -33,7 +33,7 @@ vector<string> subSeq(string str, string curr , int index, vector<string> &ans){
 vector<vector<int>> subSet(vector<int> nums, vector<int> curr , int index, vector<vector<int>> &res){
     if(index == nums.size()){
         res.push_back(curr);
-        return;
+        return res;
     }
 
     //not take
